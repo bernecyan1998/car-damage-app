@@ -56,9 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-
+```
 ## Development
-
+```
 To contribute to My Awesome Plugin, follow these steps:
 
 1. **Clone the Repository:** Clone this repository to your local machine.
