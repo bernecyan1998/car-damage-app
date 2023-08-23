@@ -28,8 +28,8 @@ To use My Awesome Plugin in your application, follow these steps:
 1. Include the plugin's JavaScript and CSS files in your HTML file:
 
    ```html
-   <link rel="stylesheet" href="[https://your-netlify-site-url](https://64e6741bb6263b041e72caa9--clinquant-bunny-8f5b39.netlify.app/)/plugin.css">
-   <script src="[https://your-netlify-site-url](https://64e6741bb6263b041e72caa9--clinquant-bunny-8f5b39.netlify.app/)https://64e6741bb6263b041e72caa9--clinquant-bunny-8f5b39.netlify.app//plugin.js"></script>
+   <link rel="stylesheet" href="https://64e6741bb6263b041e72caa9--clinquant-bunny-8f5b39.netlify.app/plugin.css">
+   <script src="https://64e6741bb6263b041e72caa9--clinquant-bunny-8f5b39.netlify.app/plugin.js"></script>
 
 ## Usage
 
