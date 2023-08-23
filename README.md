@@ -16,8 +16,6 @@ Welcome to My Car Damage App Plugin! This is a versatile and interactive plugin 
   - [Installation](#installation)
   - [Usage](#usage)
 - [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
