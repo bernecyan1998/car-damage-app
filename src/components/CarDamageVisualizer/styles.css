@@ -1,0 +1,27 @@
+.car-image-container {
+  position: relative;
+  margin-left: 100px;
+}
+
+.damage-points {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.damage-point {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid black;
+}
+
+.damage-point.active {
+  background-color: #e14313;
+}
