@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Effector
 # Car Damage App
 
 Welcome to My Car Damage App Plugin! This is a versatile and interactive plugin built using React, TypeScript, Effector, and Vite.
