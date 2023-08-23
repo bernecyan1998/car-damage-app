@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React from 'react'
 import './styles.css'
 
 interface Props {
@@ -7,14 +7,14 @@ interface Props {
   style?: React.CSSProperties
 }
 
-const DamagePoint: React.FC<Props> = memo(({ active, onClick, style }) => {
+const DamagePoint: React.FC<Props> = ({ active, onClick, style }) => {
   return (
     <div
       className={`damage-point ${active ? 'active' : ''}`}
       onClick={onClick}
       style={style}
-    ></div>
+    />
   )
-})
+}
 
 export default DamagePoint
