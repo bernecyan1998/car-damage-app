@@ -1,8 +1,6 @@
 import { createStore, createEffect } from 'effector/compat'
 import axios from 'axios'
 
-const loading = createStore(false)
-
 const fetchActivePositionsFx = createEffect(async () => {
   const response = await fetch('https://myfailemtions.npkn.net/b944ff/')
   const data = await response.json()
@@ -17,12 +15,6 @@ const sendActivePositionsFx = createEffect(async (positions: string[]) => {
   return response.data
 })
 
-loading
-  .on(fetchActivePositionsFx, () => true)
-  .on(fetchActivePositionsFx.finally, () => false)
-loading
-  .on(sendActivePositionsFx, () => true)
-  .on(sendActivePositionsFx.finally, () => false)
 const damagePositionsStore = createStore({
   data: [],
   loading: false,
@@ -61,13 +53,4 @@ damagePositionsStore
     error: error.toString(),
   }))
 
-loading
-  .on(fetchActivePositionsFx, () => true)
-  .on(sendActivePositionsFx, () => true)
-
-export {
-  fetchActivePositionsFx,
-  sendActivePositionsFx,
-  damagePositionsStore,
-  loading,
-}
+export { fetchActivePositionsFx, sendActivePositionsFx, damagePositionsStore }
